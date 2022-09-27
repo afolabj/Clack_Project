@@ -2,7 +2,7 @@ package Data;
 
 public class ClackData {
     private String username; // name of client user
-    private int type; //
+    private int type;
     private int date; // date when ClackData object was
 
     public void ClackData(userName,type){}
