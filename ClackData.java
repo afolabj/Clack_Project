@@ -1,3 +1,5 @@
+package Data;
+
 public class ClackData {
     private String username; // name of client user
     private int type; //
