@@ -8,11 +8,15 @@ public class ClackData {
     public void ClackData(userName,type){}
     public void ClackData(type){}
     public void ClackData(){}
-    public void getType(){
+    public int getType(){
         return type;
     }
-    public void getUserName(){}
-    public void getDate(){}
+    public String getUserName(){
+        return username;
+    }
+    public void getDate(){
+        return date;
+    }
 
     //Abstract Methods
 
@@ -38,7 +42,7 @@ public class File Clack Data extends ClackData{
     public void FileClackData(userName,fileName,type){}
     public void FileClackData(){}
     public void setFileName(fileName){}
-    public void getFileName(){
+    public String getFileName(){
         return fileName;
     }
     public void getData(){}
@@ -48,4 +52,3 @@ public class File Clack Data extends ClackData{
     public void equals(){}
     public void toString(){}
 }
-//biz

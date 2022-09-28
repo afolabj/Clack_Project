@@ -11,7 +11,7 @@ public class ClackServer {
     public void start() {}
     public void receiveData(){}
     public void sendData(){}
-    public void getPort(){
+    public int getPort(){
         return port;
     }
     public void hashCode(){}
