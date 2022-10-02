@@ -1,3 +1,4 @@
+import java.util.*;
 package Data;
 
 public class ClackData {
@@ -5,7 +6,11 @@ public class ClackData {
     private int type;
     private int date; // date when ClackData object was
 
-    public void ClackData(userName,type){}
+    public void ClackData(userName,type){
+        this.userName = userName;
+        this.type = type;
+        this.date = new Date();
+    }
     public void ClackData(type){}
     public void ClackData(){}
     public int getType(){
@@ -18,7 +23,7 @@ public class ClackData {
         return date;
     }
 
-    //Abstract Methods
+    //Abstract Method
 
     getData(){}
 }
@@ -29,9 +34,11 @@ public class MessageClackData extends ClackData{
     public void MessageClackData(userName,message,type){}
     public void MessageClackData(){}
     public void getData(){}
-    public void hashCode(){}
-    public void equals(){}
-    public void toString(){}
+    public int hashCode(){}
+    public boolean equals(){}
+    public String toString(){
+        return
+    }
 
 }
 
@@ -48,7 +55,7 @@ public class File Clack Data extends ClackData{
     public void getData(){}
     public void readFileContents(){}
     public void writeFileContents(){}
-    public void hashCode(){}
-    public void equals(){}
-    public void toString(){}
+    public int hashCode(){}
+    public boolean equals(){}
+    public String toString(){}
 }
