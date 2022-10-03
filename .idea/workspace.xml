@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54a8da0-8106-4093-b858-ee96fbd68d6b" name="Changes" comment="Class structures">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClackData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClackData.java" afterDir="false" />
     </list>
