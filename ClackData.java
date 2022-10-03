@@ -4,7 +4,7 @@ package Data;
 public class ClackData {
     private String username; // name of client user
     private int type;
-    private int date; // date when ClackData object was
+    private Date date; // date when ClackData object was
 
     public void ClackData(userName,type){
         this.userName = userName;
@@ -31,7 +31,9 @@ public class ClackData {
 public class MessageClackData extends ClackData{
     private String message;
 
-    public void MessageClackData(userName,message,type){}
+    public void MessageClackData(userName,message,type){
+        super(userName, message)
+    }
     public void MessageClackData(){}
     public void getData(){}
     public int hashCode(){}
