@@ -6,7 +6,7 @@ import java.util.Date;
 public class ClackData {
     protected String username;                           // name of client user
     protected int type;
-    protected Date date;                                 // date when ClackData object was
+    protected Date date;                                 // date when ClackData object was created
 
     public ClackData(String userN,type_1){
         this.username = userN;
@@ -16,7 +16,7 @@ public class ClackData {
     public ClackData(int type_1){   // constructor calling another constructor
         this("Anon", type_1)
     }
-    public ClackData(){this(-1);}                             // default constructor
+    public ClackData(){this(-1);}                  // default constructor
     public int getType(){
         return this.type;
     }
