@@ -4,8 +4,7 @@ import data.*;
 import java.util.Objects;
 
 
-//This class contains information abou the port number that clients connect to
-
+//This class contains information about the port number that clients connect to
 public class ClackServer {
     private int port;
     private boolean closeConnection;
@@ -20,7 +19,6 @@ public class ClackServer {
 
 
 //      defualt constructor that sets port to default 7000 number
-
     public ClackServer(){
         this(7000);
     }
@@ -31,19 +29,19 @@ public class ClackServer {
 
 
 //      returns the port
-
     public int getPort(){
         return this.port;
     }
 
+    
+//    overrides the hashcode function
     @Override
     public int hashCode(){
         return Objects.hash(port,closeConnection,dataToReceiveFromClient,dataToSendToClient);
     }
 
-//        not implemented yet
+//overriding the equal function
     public boolean equals(){}
-   
 
 
 
